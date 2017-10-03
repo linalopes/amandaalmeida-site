@@ -1,0 +1,23 @@
+# Site
+title: Amanda Almeida
+subtitle: 
+
+# URL
+url: http://www.amandaalmeida.me
+baseurl: /
+permalink: :title/
+include: ['_pages']
+
+# Build settings
+markdown: kramdown
+port: 4448
+future: true
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
